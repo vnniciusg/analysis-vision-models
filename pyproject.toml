@@ -4,7 +4,13 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "loguru>=0.7.3",
+    "modal>=1.1.2",
+    "pillow>=11.3.0",
+    "torch>=2.8.0",
+    "transformers>=4.55.2",
+]
 
 [dependency-groups]
 dev = [
